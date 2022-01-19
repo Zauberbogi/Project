@@ -1,10 +1,13 @@
 import random
 
 while 1==1:
-    kerdes=input("írj be egy kérdést")
+    te=input("írj valamit: ")
+    if ("Szia"or"Heló"or"Helo") in te:
+        valasz=("Szia!","Helo!")
+        print(random.choice(valasz))
 
-    valasz=(1,2,3,4)
-    print(random.choice(valasz))
-
+    elif ("Szereted"or"Szeretnéd") in te:
+        valasz=("Igen!","Nem","Nemtudom")
+        print(random.choice(valasz))
 
 
