@@ -7,7 +7,7 @@ while 1==1:
         valasz=("Szia!","Helo!")
         print(random.choice(valasz))
 
-    elif ("Szereted"or"Szeretnéd") in te:
+    elif ("Szereted")or("Szeretnéd") in te:
         valasz=("Igen!","Nem","Nemtudom")
         print(random.choice(valasz))
 
